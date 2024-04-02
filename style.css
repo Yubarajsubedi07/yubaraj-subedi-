@@ -1,0 +1,184 @@
+/* Reset default browser styles */
+* {
+    margin: 2;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8fa;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #ffffff;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+header h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Home section styles */
+.home-section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url(http://surl.li/seapc()
+    color: #fff;
+}
+
+.home-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.home-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Menu section styles */
+.menu-section {
+    padding: 80px 0;
+}
+
+.menu-item {
+    margin-bottom: 40px;
+}
+
+.menu-item h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.menu-item ul {
+    list-style-type: none;
+}
+
+.menu-item ul li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+/* Reservation section styles */
+.reservation-section {
+    background-color: #f9f9f9;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.reservation-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.reservation-section form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.reservation-section label {
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+.reservation-section input[type="text"],
+.reservation-section input[type="email"],
+.reservation-section input[type="date"],
+.reservation-section input[type="time"],
+.reservation-section input[type="submit"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Contact section styles */
+.contact-section {
+    padding: 80px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 11px 20px;
+    background-color: #a647ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #dc3545;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.fadeIn {
+    animation: fadeIn 1s ease;
+}
